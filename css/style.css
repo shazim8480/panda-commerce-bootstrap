@@ -1,0 +1,48 @@
+.carousel-banner {
+    border-radius: 1em;
+    margin-top: 5em;
+    background-color: #fceae8;
+}
+
+.btn-buy {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 9px 25px !important;
+}
+
+.categories img {
+    width: 100px;
+    height: 90px;
+}
+
+.category-inner {
+    border-radius: 10px !important;
+}
+
+.panda-card,
+.panda-card-footer {
+    border: 0 !important;
+    border-radius: 10px !important;
+}
+
+.form-footer {
+    height: 350px;
+    background-color: #fceae8;
+}
+
+.form-inner h5 {
+    color: grey;
+}
+
+.form-inner input {
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+
+.btn-footer {
+    margin-left: 35%;
+}
