@@ -32,7 +32,7 @@
     background-color: #fceae8;
 }
 
-.form-inner h5 {
+.form-inner h6 {
     color: grey;
 }
 
@@ -44,5 +44,5 @@
 }
 
 .btn-footer {
-    margin-left: 35%;
+    margin-left: 30%;
 }

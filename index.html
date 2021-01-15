@@ -23,13 +23,13 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Shoes</a>
+            <a class="nav-link" href="#shoes">Shoes</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Backpack</a>
+            <a class="nav-link" href="#bags">Backpack</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Subscribe</a>
+            <a class="nav-link" href="#subscribe">Subscribe</a>
             </li>
         </ul>
         </div>
@@ -93,21 +93,21 @@
     </div>
     </section>
 
-    <section>
-    <div class="row gx-5 mt-5 categories">
-    <div class="col">
+    <section class="container overflow-hidden mt-5 categories">
+    <div class="row g-5">
+    <div class="col-md-4">
      <div style="background-color: orange" class="p-3 d-flex align-items-center justify-content-around category-inner">
          <h1 class="text-white">Watch</h1>
          <img class="img-fluid" src="images/watch.png" alt="">
      </div>
      </div>
-     <div class="col">
+     <div class="col-md-4">
        <div style="background-color: orchid" class="p-3 d-flex align-items-center justify-content-around category-inner">
          <h1 class="text-white">Bags</h1>
          <img class="img-fluid" src="images/bag.png" alt="">
      </div>
      </div>
-     <div class="col">
+     <div class="col-md-4">
        <div style="background-color: blue" class="p-3 d-flex align-items-center justify-content-around category-inner">
          <h1 class="text-white">Shoes</h1>
          <img class="img-fluid" src="images/shoes.png" alt="">
@@ -116,7 +116,7 @@
   </div>
 </section>
 
-<section class="shoes mt-5">
+<section id="shoes" class="shoes mt-5">
     <h3>Shoes</h3>
     <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
@@ -161,7 +161,7 @@
 </div>
 </section>
 
-<section class="backpacks mt-5">
+<section id="bags" class="backpacks mt-5">
     <h3>Backpack</h3>
     <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
@@ -209,10 +209,10 @@
 </div>
 </section>
 
-<section class="form-footer mt-5 mb-5 d-flex align-items-center justify-content-center">
+<section id="subscribe" class="form-footer mt-5 mb-5 d-flex align-items-center justify-content-center">
   <div class="form-inner">
       <h3 class="text-center">LET'S STAY IN TOUCH</h3>
-      <h5>Get updates on sales, specials and more</h5>
+      <h6>Get updates on sales, specials and more</h6>
       <input type="text">
       <button class="btn btn-footer btn-buy d-block mt-2">SUBMIT</button>
   </div>
